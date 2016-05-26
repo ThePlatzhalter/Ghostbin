@@ -19,11 +19,11 @@ USER root
 RUN mkdir /logs
 RUN chown ghostbin:ghostbin /logs
 
-EXPOSE 8080
+EXPOSE 8619
 
 VOLUME /logs
 
 COPY ghostbin.sh /ghostbin/ghostbin.sh
 
 ENTRYPOINT /ghostbin/ghostbin.sh
-CMD -addr="0.0.0.0:8080" -log_dir="/logs"
+CMD -addr="0.0.0.0:8619" -log_dir="/logs"
