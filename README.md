@@ -45,4 +45,4 @@ server {
 
 ## Notes
 
-- You don't need to use the `-v /var/log/ghostbin:/logs` flag, but it is a useful feature in case you want to have logs.
+- You don't necessaryli need to use the `-v /var/log/ghostbin:/logs` flag, but it is a useful feature in case you want to have logs.
